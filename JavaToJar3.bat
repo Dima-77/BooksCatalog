@@ -1,7 +1,7 @@
 md class
 rem Стороние классы скопированы в директорию lib
 rem Это отражено в манифесте
-"%ProgramFiles%\Java\jdk1.8.0_92\bin\javac" -encoding UTF-8 ^
+javac -encoding UTF-8 ^
 -classpath jar\lib\slf4j-api-1.7.21.jar;^
 jar\lib\slf4j-simple-1.7.21.jar;^
 jar\lib\sqlite-jdbc-3.8.11.2.jar ^
